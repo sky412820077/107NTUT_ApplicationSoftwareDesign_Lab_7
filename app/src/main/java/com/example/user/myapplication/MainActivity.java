@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         new AsyncTask<Void, Integer, Boolean>(){
             @Override
             protected Boolean doInBackground(Void... voids){
+                tortoise_count = 0;
                 do {
                     try{
                         Thread.sleep(100);
